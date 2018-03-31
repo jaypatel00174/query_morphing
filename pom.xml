@@ -149,7 +149,7 @@
         <dependency>
             <groupId>de.lmu.ifi.dbs.elki</groupId>
             <artifactId>elki-batik-visualization</artifactId>
-            <version>${elki.version}</version>
+            <version>0.7.1</version>
         </dependency>
     </dependencies>
 

@@ -65,6 +65,7 @@ public class QueryMorphing<V extends NumberVector> extends AbstractAlgorithm<Clu
 	   */
 	  public static final OptionID PRUNE_ID = new OptionID("clique.prune", "Flag to indicate that only subspaces with large coverage " + "(i.e. the fraction of the database that is covered by the dense units) " + "are selected, the rest will be pruned.");
 
+	  public static final OptionID DB = new OptionID("clique.Database", "Database");
 	   
 	  private int xsi; 			// Holds the value of {@link #XSI_ID}.
 	  private double tau; 		// Holds the value of {@link #TAU_ID}.
